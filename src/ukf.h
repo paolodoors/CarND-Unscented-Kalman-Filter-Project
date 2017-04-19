@@ -20,6 +20,9 @@ public:
   ///* previous timestamp
   long previous_timestamp_;
 
+  ///* Show debug messages
+  bool debug_;
+
   ///* if this is false, laser measurements will be ignored (except for init)
   bool use_laser_;
 
